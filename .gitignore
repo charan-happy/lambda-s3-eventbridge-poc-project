@@ -1,0 +1,30 @@
+-----------------------------------------------------------------------------
+TERRAFORM FILES TO IGNORE (CRITICAL)
+-----------------------------------------------------------------------------
+Terraform state files (contain state and secrets)
+*.tfstate
+.tfstate.
+
+Local provider/module cache directory (downloaded content)
+.terraform/
+
+Crash log files
+crash.log
+crash.*.log
+
+Terraform CLI configuration files
+.terraformrc
+terraform.rc
+
+Local backup/plan files (often contain sensitive plan data)
+*.tfplan
+*.backup
+
+Ignore the random suffix file
+.terraform.lock.hcl
+
+-----------------------------------------------------------------------------
+NODE.JS / LAMBDA ARTIFACTS TO IGNORE
+-----------------------------------------------------------------------------
+Dependency cache
+node_modules/
